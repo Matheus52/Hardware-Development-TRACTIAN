@@ -151,9 +151,9 @@ void fft_data(vector<float> function_value,char eixo){
 int main()
 {
 	
-	// O arquivo de saída output.txt esta com uma amplitude muito alta em zero, desta forma os valores de 0 Hz foram forçados a 0.
-	// O código para o calculo da fft foi retirado e basado no disponibilizado neste link: https://tfetimes.com/c-fast-fourier-transform/
-	// Para o caculo e definição dos vetores de espectro e frequecia utilizou-se o databook. http://databookuw.com/databook.pdf
+	// O arquivo de saída output.txt esta com uma amplitude muito alta em zero, desta forma os valores de iniciais foram forçados a 0.
+	// O código para o calculo da fft foi retirado e baseado no link: https://tfetimes.com/c-fast-fourier-transform/
+	// Para o caculo e definição dos vetores de espectro/frequecia utilizou-se o databook. http://databookuw.com/databook.pdf
 
 	read_file(); 
 	fft_data(x,'x');
